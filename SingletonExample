@@ -1,0 +1,16 @@
+public class SingletonExa{
+	
+	private static SingletonExa singleton;
+	
+	private SingletonExa(){
+	
+	}
+	
+	public static SingletonExa getInstance(){
+	
+	   if(singleton == null){
+		   
+		   singleton = new SingletonExa();
+	}
+	return singleton;
+	}
