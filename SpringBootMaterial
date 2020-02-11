@@ -1,0 +1,58 @@
+
+Spring Core annotations:
+--------------------------
+
+		@Component
+		@Bean
+		@Autowired
+		@Qualifer
+		@Controller
+		@Service
+		@Configuration
+		
+		and etc
+		
+		@GetMappling, @PostMapping, @DeleteMapping, @PutMapping and etc.
+	
+	
+SpringMVC:
+----------
+
+		SpringFramework + XML Configuration + External server  = SpringMVC Project
+		
+		SpringMVC 4.x:
+		--------------
+		Jsp/HTML ---> web.xml ---> disptcher.servlet.xml ---> Controller Layer ---> Service Layer ---> DAO Layer ---> Database
+		
+		
+		SpringMVC 5.x:
+		--------------
+		JSP/HTML ---> appconfig.java ---> Controller Layer ---> Service layer ---> DAO layer --->database
+		
+		
+SpringBoot:
+-----------
+		Tomcat / Jetty Server / Undertow
+		
+		SpringFramework - XML Configuration + internal Server = SpringBoot Project
+		
+		JSP/HTML ---> Controller layer ---> service layer ----> DAO Layer ----> database
+		
+		
+		SpringBoot :
+		-----------
+				* SpringBoot is a standalone application.
+				
+				* microservices, cloud native and Migration.
+				
+				*support 3rd party  libraries (No-SQL, Distributed Cache and etc..)
+				
+				*Integrated server.
+				
+			How many ways to create a SpringBoot Application:
+			-------------------------------------------------
+				*Eclipse maven.
+				
+				*Spring Intializer (start.spring.io)
+				
+				*STS (Spring Tool Suit)
