@@ -5,9 +5,6 @@
 <%@ page isELIgnored="false"%>
 <nav class="navbar  navbar-light navbar-fixed-top"
 	style="background-color: gray">
-	<%@ page isELIgnored="false"%>
-<nav class="navbar  navbar-light navbar-fixed-top"
-	style="background-color: gray">
 
 	<!-- Collect the nav links, forms, and other content for toggling -->
 	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
