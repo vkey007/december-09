@@ -5,6 +5,9 @@
 <%@ page isELIgnored="false"%>
 <nav class="navbar  navbar-light navbar-fixed-top"
 	style="background-color: gray">
+	<%@ page isELIgnored="false"%>
+<nav class="navbar  navbar-light navbar-fixed-top"
+	style="background-color: gray">
 
 	<!-- Collect the nav links, forms, and other content for toggling -->
 	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -81,14 +84,11 @@
 					<li class="dropdown">
 					 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="color: white;"><s:message code="label.faculty" /> <span class="caret"></span></a>
 						<ul class="dropdown-menu">
-							<li><a href="<c:url value="/ctl/Faculty" />"><span
-									class="glyphicon glyphicon-plus"></span> <s:message
-										code="label.addFaculty" /> </a></li>
-							<li><a href="<c:url value="/ctl/Faculty/search" />"><span
-									class="glyphicon glyphicon-list"></span> <s:message
-										code="label.facultyList" /> </a></li>
+							<li><a href="<c:url value="/ctl/Faculty" />"><span class="glyphicon glyphicon-plus"></span> <s:message code="label.addFaculty" /> </a></li>
+							<li><a href="<c:url value="/ctl/Faculty/search" />"><span class="glyphicon glyphicon-list"></span> <s:message code="label.facultyList" /> </a></li>
 
 						</ul></li>
+						
 					<li class="dropdown"><a href="#" class="dropdown-toggle"
 						data-toggle="dropdown" role="button" aria-haspopup="true"
 						aria-expanded="false" style="color: white;"><s:message
