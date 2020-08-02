@@ -1,7 +1,7 @@
 public class SingletonExa{
 	
 	private static SingletonExa singleton;
-	
+	// it is SingletonExample
 	private SingletonExa(){
 	
 	}
